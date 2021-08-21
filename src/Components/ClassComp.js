@@ -1,12 +1,12 @@
 import React from 'react'
 
-class ClassComp extends React.Component {
+export class ClassComp extends React.Component {
     render() {
-        return (
-            <p>
-              This is a Class Component  
-            </p>
-        )
+        return <p>This is a Class Component  </p>
     }
 }
-export default ClassComp;
+export class ClassComp1 extends React.Component{
+render() {
+    return <p>it's another class</p>
+}
+}
