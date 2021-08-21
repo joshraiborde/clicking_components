@@ -2,7 +2,8 @@
 import React from 'react';
 import './App.css';
 import FunctionalComp  from "./Components/FunctionalComp";
-import ClassComp from './Components/ClassComp';
+import {ClassComp, ClassComp1} from './Components/ClassComp';
+import Click from './Components/Click';
 function App() {
   return (
     <div className="wrapper">
@@ -10,6 +11,8 @@ function App() {
     <h1>Components</h1>
     <FunctionalComp/>
     <ClassComp/>
+    <ClassComp1/>
+    <Click/>
     </div>
   );
 }
