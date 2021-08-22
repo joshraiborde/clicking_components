@@ -5,6 +5,7 @@ import FunctionalComp  from "./Components/FunctionalComp";
 import {ClassComp, ClassComp1} from './Components/ClassComp';
 import Click from './Components/Click';
 import Counter from './Components/Counter';
+import ParentComp from './Components/ParentComp';
 function App() {
   return (
     <div className="wrapper">
@@ -16,6 +17,7 @@ function App() {
     <Click/>
     <br></br>
     <Counter/>
+    <ParentComp/>
     </div>
   );
 }
